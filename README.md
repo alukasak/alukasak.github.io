@@ -1,1 +1,0 @@
-# lukasakforcircleville.github.io

@@ -1,0 +1,30 @@
+url: 'https://lukasakforcircleville.com'
+baseurl: '/'
+permalink: pretty
+title: 'Lukasak for Circleville 3rd Ward'
+
+logo:
+  mobile: "images/logo/nologo.jpg"
+  mobile_height: "32px" #32
+  mobile_width: "32px" #32
+  desktop: "images/logo/lukasak.jpg"
+  desktop_height: "87px" #32
+  desktop_width: "240px" #120
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

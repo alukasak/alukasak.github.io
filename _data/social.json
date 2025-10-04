@@ -1,0 +1,12 @@
+[
+  {
+      "name": "Facebook",
+      "link": "https://facebook.com/lukasakforcircleville",
+      "image": "images/social/facebook.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:audreyforcircleville@gmail.com ",
+      "image": "images/social/email.svg"
+  },
+]
