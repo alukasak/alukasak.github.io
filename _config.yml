@@ -13,6 +13,7 @@ logo:
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
+  source_dir: _sass
 
 plugins:
   - jekyll-environment-variables
