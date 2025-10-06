@@ -1,0 +1,26 @@
+{% assign galleries=site.data.[page.gallery] %}
+{% for gallery in galleries %}
+
+    <div class="container">
+        <div class="col-12">
+            <p class="text-center my-4">{{ gallery.title }}</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        {% for image in gallery.images %}
+            <div class="col">
+                <div class="position-relative gallery-item" style="cursor: pointer;">
+                    <a href="{{ image.large_link }}">
+                        <img src={{ image.link }} alt="Image 1" class="w-100">
+                        <div class="card-content">
+                            <div class="content">
+                                {{ image.description | markdownify }}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+
+{% endfor %}

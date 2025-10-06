@@ -1,21 +1,18 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Contribute"
+    url: "/contribute/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
-  - name: "About"
-    url: "/about/"
-    weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
+  - name: "Cheeto-Love"
+    url: "/cheeto/"
+    weight: 2
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Contribute"
+    url: "/contribute/"
+    weight: 2
+  - name: "Cheeto-Love"
+    url: "/cheeto/"
     weight: 2
