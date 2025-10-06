@@ -10,6 +10,28 @@ logo:
   desktop_height: "87px" #32
   desktop_width: "240px" #120
 
+home: 
+  limit_services: 6
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
