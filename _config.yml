@@ -1,4 +1,3 @@
-url: 'https://lukasakforcircleville.com'
 baseurl: '/'
 permalink: pretty
 title: 'Lukasak for Circleville 3rd Ward'
@@ -13,7 +12,6 @@ logo:
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
-  source_dir: _sass
 
 plugins:
   - jekyll-environment-variables
