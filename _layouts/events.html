@@ -1,0 +1,39 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+  <div class="container">
+    {% assign events=site.data.[page.calendar] %}
+    {% for event in events %}
+    <hr>
+    <h1>{{event.location}}</h1><br>
+        <div class="row">
+            <div class="col">
+                <h2>{{event.date}}<br>
+                {{event.time}}<br></h2>
+            </div>
+            <div class="col">
+                <add-to-calendar-button 
+                    name="{{ event.title }}"
+                    startDate="{{ event.start }}"
+                    startTime="{{ event.stime }}"
+                    endDate="{{ event.end }}"
+                    endTime="{{ event.etime }}"
+                    timeZone="America/New_York"
+                    location="{{ event.location }}, Circleville Ohio"
+                    options="'Apple','Google','iCal','Outlook.com','Yahoo'"
+                    listStyle="dropdown-static"
+                    ></add-to-calendar-button>
+            </div>
+        </div>
+
+    {% endfor %}
+  </div>
+</div>
+<div class="content">
+    <div class="container"">
+        {{ content }}
+    </div>
+</div>

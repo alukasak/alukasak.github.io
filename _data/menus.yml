@@ -5,6 +5,10 @@ main:
   - name: "Cheeto-Love"
     url: "/cheeto/"
     weight: 2
+  - name: "Events"
+    url: "/events/"
+    weight: 2
+
 
 footer:
   - name: "Home"
@@ -15,4 +19,7 @@ footer:
     weight: 2
   - name: "Cheeto-Love"
     url: "/cheeto/"
+    weight: 2
+  - name: "Events"
+    url: "/events/"
     weight: 2
